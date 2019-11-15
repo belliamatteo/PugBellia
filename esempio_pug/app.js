@@ -12,3 +12,11 @@ app.get('/', function (req, res) {
 app.listen(3000, function () {
  console.log('Example app listening on port 3000!');
 });
+
+app.get('/profile', (req, res) => {
+  const person = people.profiles.find((p) => p.id === req.query.id);
+  res.render('profile', {
+    title: `About ${person.firstname} ${person.lastname}`,
+    person,
+  });
+});
