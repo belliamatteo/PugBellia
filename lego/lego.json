@@ -5,7 +5,7 @@
      "lastname": "Flyer",
      "bio": " Set Number: LEGO 6007; lego instructions Set Theme: Dragon Master; lego instructions Set Name: Batlord and Dragon; lego instructions Year: 1997",
      "tagline": "LEGO Instructions 2539 Batwing Flyer",
-     "imgSrc": "2539b.jpg",
+     "imgSrc": ["001 (1).jpg"],
      "id": "2539"
    },
 
@@ -14,7 +14,7 @@
      "lastname": "Dragon",
      "bio": " Set Number: LEGO 6007; lego instructions Set Theme: Dragon Master;lego instructions Set Name: Batlord and Dragon; lego instructions Year: 1997",
      "tagline": "LEGO Instructions 6007 Batlord and Dragon",
-     "imgSrc": "6007b.jpg",
+     "imgSrc": ["002.jpg"],
      "id": "6007"
    },
 
@@ -23,7 +23,7 @@
      "lastname": "Dragonair",
      "bio": "Set Number: LEGO 6007; lego instructions Set Theme: Dragon Master;lego instructions Set Name: Batlord and Dragon; lego instructions Year: 1997",
      "tagline": "LEGO Instructions 6037 Hubble Bubble Dragonair",
-     "imgSrc": "6037b.jpg",
+     "imgSrc": ["006.jpg","007.jpg","008.jpg","009.jpg","011.jpg"],
      "id": "6037"
    }
  ]

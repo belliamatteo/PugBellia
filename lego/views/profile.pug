@@ -7,12 +7,14 @@ html
  body
    header.header
          h1 #{title}
-   div.profile
-     div.profile-image(style=`background: url('/images/${legos.imgSrc}') top center no-repeat; background-size: cover;`)
-     div.profile-details
+   div
+     div
        h1.profile-name
          | #{legos.firstname} #{legos.lastname}
        h2.profile-tagline
          | #{legos.tagline}
        p.profile-bio
          | #{legos.bio}
+     each img in legos.imgSrc
+       div 
+         img.imm(src = `/images/${img}`)
