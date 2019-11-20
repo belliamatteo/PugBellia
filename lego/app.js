@@ -8,7 +8,7 @@ app.use(express.static(__dirname + '/public'));
 
 app.get('/', function (req, res) {
   res.render('index', {
-   title: 'Homepage',
+   title: 'LEGO',
    lego: lego.profiles
  });
 });
